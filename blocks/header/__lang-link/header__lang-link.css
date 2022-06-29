@@ -1,5 +1,5 @@
-.header__lang-link{
-  font-family: "Inter";
+.header__lang-link {
+	font-family: "Inter";
 	font-style: normal;
 	font-weight: 400;
 	font-size: 24px;
@@ -8,16 +8,13 @@
 	text-decoration: none;
 }
 
-.header__lang-link:hover{
+.header__lang-link:hover {
 	text-decoration: underline;
+	opacity: 0.8;
 }
 
 @media screen and (max-width: 320px) {
 	.header__lang-link {
 		font-size: 18px;
 	}
-}
-
-.header__lang-link:hover{
-	opacity: 0.8;
 }

@@ -12,12 +12,8 @@
 	position: relative;
 	z-index: 1;
 	width: 1184px;
-	/*
-	width: calc(100% - 48px * 2);
-	*/
 	margin: 0 auto;
 	align-items: center;
-	justify-content: center;
 }
 .cover__item::before {
 	content: "";

@@ -4,9 +4,9 @@
 	font-style: normal;
 	font-weight: 400;
 	font-size: 16px;
-	line-height: 26PX;
+	line-height: 26px;
 	color: #ffffff;
-  margin-top: 40px;
+	margin-top: 40px;
 }
 @media screen and (max-width: 320px) {
 	.intro__text {
