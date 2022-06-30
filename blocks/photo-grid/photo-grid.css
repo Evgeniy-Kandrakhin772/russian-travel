@@ -6,18 +6,21 @@
 
 @media screen and (max-width: 1024px) {
 	.photo-grid {
+		width: 928px;
 		gap: 16px;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-columns: repeat(minmax(300px, 1fr));
 	}
 }
 @media screen and (max-width: 768px) {
 	.photo-grid {
+		width: 720px;
 		gap: 16px;
   grid-template-columns: repeat(auto-fill, minmax(352px, 1fr));
 	}
 }
 @media screen and (max-width: 320px) {
 	.photo-grid {
+		width: 288px;
 		gap: 12px;
   grid-template-columns: repeat(auto-fill, minmax(288px, 1fr));
 	}

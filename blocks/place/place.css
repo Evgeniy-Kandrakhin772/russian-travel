@@ -3,6 +3,12 @@
 	display: grid;
 	grid-template-columns: repeat(auto-fill, minmax(460px, 4fr));
 }
+
+@media screen and (width: 1024px) {
+	.place {
+		grid-template-columns: repeat(auto-fill, minmax(440px, 1fr));
+	}
+}
 @media screen and (width: 768px) {
 	.place {
 		grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));

@@ -6,9 +6,6 @@
 	font-size: 18px;
 	line-height: 22px;
 	text-decoration-line: underline;
-	position: absolute;
-	left: 0px;
-	bottom: 0px;
 }
 
 .place__link:hover{

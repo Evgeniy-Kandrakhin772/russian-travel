@@ -1,13 +1,10 @@
 .place__website {
-	position: relative;
-	right: 0px;
-	bottom: 0px;
-	/*
-	margin-top: calc(100% - 386px);
-	*/
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
 }
 @media screen and (max-width: 320px) {
 	.place__website {
-		margin-top: 134px;
+		margin-top: 32px;
 	}
 }
