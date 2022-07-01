@@ -1,5 +1,5 @@
 /*fonts*/
-@import url(./vendor/fonts/fonts.css);
+@import url(./vendor/fonts.css);
 /*body*/
 @import url(./blocks/body/body.css);
 /*page*/
@@ -45,11 +45,3 @@
 @import url(./blocks/footer/__links/footer__links.css);
 @import url(./blocks/footer/__copyright/footer__copyright.css);
 /*
-.html{
-  margin: 0 auto;
-}
-@media screen and (max-width: 1024px) {
-	.html {
-		width: 1024px;
-	}
-}*/
