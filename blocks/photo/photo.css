@@ -1,19 +1,19 @@
 .photo {
   margin: 92px auto 0;
-  width: 1184px;
+  max-width: 1184px;
 }
 @media screen and (max-width: 1024px) {
 	.photo {
-		width: 928px;
+		max-width: 928px;
 	}
 }
 @media screen and (max-width: 768px) {
 	.photo {
-		width: 720px;
+		max-width: 720px;
 	}
 }
 @media screen and (max-width: 320px) {
 	.photo {
-		width: 288px;
+		max-width: 288px;
 	}
 }
