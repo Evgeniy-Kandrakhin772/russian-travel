@@ -5,11 +5,16 @@
 	justify-content: space-between;
 }
 
+@media screen and (max-width: 768px) {
+	.footer {
+		margin: 64px auto 16px;
+		max-width: 720px;
+	}
+}
 @media screen and (max-width: 320px) {
 	.footer {
-		margin: 64px 0 0 16px;
+		margin: 64px auto 16px;
 		max-width: 288px;
-		margin: auto;
 		display: block;
 	}
 }
