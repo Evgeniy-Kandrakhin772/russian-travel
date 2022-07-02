@@ -1,21 +1,21 @@
-body {
+.body {
 	margin: 0 auto;
 	background-color: #2a2c2f;
-	font-family: "inter Helvetica Neue", Arial, sans-serif;
+	font-family: "Inter", Arial, Helvetica, sans-serif;
 }
 
 @media screen and (max-width: 1024px) {
-	body {
+	.body {
 		max-width: 1024px;
 	}
 }
 @media screen and (max-width: 768px) {
-	body {
+	.body {
 		max-width: 768px;
 	}
 }
 @media screen and (max-width: 320px) {
-	body {
+	.body {
 		max-width: 320px;
 	}
 }
