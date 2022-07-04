@@ -3,16 +3,20 @@
 	display: flex;
 	margin: 48px 0 0 0;
 	flex-direction: column;
-	max-width: 492px;
+}
+@media screen and (max-width: 1023px) {
+	.place__paragraphs {
+		max-width: 456px;
+	}
 }
 @media screen and (max-width: 768px) {
 	.place__paragraphs {
-		margin: 32px 0 0 12px;
-		gap: 25px;
+		max-width: 352px;
 	}
 }
 @media screen and (max-width: 320px) {
 	.place__paragraphs {
+		max-width: 288px;
 		margin: 32px 0 0 12px;
 	}
 }

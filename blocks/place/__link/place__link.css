@@ -1,31 +1,21 @@
 .place__link {
 	color: #ffffff;
-	font-family: "Inter", Arial, Helvetica, sans-serif;
+	font-family: "Inter";
 	font-style: normal;
 	font-weight: 400;
 	font-size: 18px;
 	line-height: 22px;
 	text-decoration-line: underline;
-	max-width: 492px;
 }
 
 .place__link:hover {
 	opacity: 0.8;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 320px) {
 	.place__link {
-		max-width: 464px;
-	}
-}
-@media screen and (max-width: 768px) {
-	.place__link {
-		max-width: 384px;
-	}
-}
-@media screen and (max-width: 768px) {
-	.place__link {
-		max-width: 288px;
+		
+		width: 288px;
 		margin: 12px auto 0;
 	}
 }

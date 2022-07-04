@@ -1,22 +1,8 @@
 .place__website {
-	max-width: 492px;
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-end;
 }
-@media screen and (max-width: 1024px) {
-	.place__website{
-		max-width: 464px;
-	}
-	
-}
-@media screen and (max-width: 768px) {
-	.place__website{
-		max-width: 384px;
-	}
-	
-}
-
 @media screen and (max-width: 320px) {
 	.place__website {
 		margin-top: 32px;

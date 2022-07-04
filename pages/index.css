@@ -30,6 +30,7 @@
 @import url(../blocks/places/places.css);
 @import url(../blocks/place/place.css);
 @import url(../blocks/place/__image/place__image.css);
+@import url(../blocks/place/__box/place__box.css);
 @import url(../blocks/place/__link/place__link.css);
 @import url(../blocks/place/__paragraph/place__paragraph.css);
 @import url(../blocks/place/__paragraphs/place__paragraphs.css);
@@ -47,27 +48,23 @@
 @import url(../blocks/footer/__links/footer__links.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
 
-.place__box {
-  padding: 48px 0 0 0;
-	max-width: 460px;
-	max-height: 460px;
-}
-@media screen and (max-width: 1024px) {
-	.place__box {
-		max-width: 440px;
-		max-height: 440px;
-	}
-}
-@media screen and (max-width: 768px) {
-	.place__box {
-		max-width: 340px;
-		max-height: 340px;
-	}
+.place__title_short {
+	font-size: 42px;
+	line-height: 46px;
+	max-width: 320px;
+	margin: 0;
+	font-family: "inter", Arial, Helvetica, sans-serif;
+	font-style: normal;
+	font-weight: 900;
+
+	color: #ffffff;
 }
 @media screen and (max-width: 320px) {
-	.place__box {
-    padding: 32px 0 0 0;
-		max-width: 320px;
-		max-height: 320px;
+	.place__title_short {
+		font-size: 32px;
+		line-height: 35px;
+		width: 288px;
+		margin: 0 auto;
+
 	}
 }
