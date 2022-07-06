@@ -3,4 +3,12 @@
 	flex-direction: column;
 	justify-content: flex-end;
 }
+@media screen and (max-width: 330px) {
+	.place__website {
+		max-width: 288px;
+		margin-left: 16px;
+		gap: 12px;
+	}
+}
+
 
